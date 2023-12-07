@@ -1,9 +1,11 @@
 # cap6707_uav_project
 Repository for my CAP6707 Class Project
 
-Data is taken from the LOG file for a UAV_speed of 10, Wind_speed of 5, and a UAV_altitude of 100 meters
+Data is taken from the LOG file for a UAV_speed of 10, Wind_speed of 5, and a UAV_altitude of 100 meters with a wind angle of 90 degrees
+
 Note: All deliveries are under distances of 5 kilometers due to UAV battery constraints
 
+## Variables
 simt = Simulation time (measured in seconds)
 
 id = Unique ID of UAV (as a string)
@@ -46,12 +48,12 @@ fuelflow = fuel flow calculation
 
 avg_speed = distflown/simt (measured in m/s)
 
-
+## Drone Specifications
 All drones were DJI Matrice 600's (M600) and have the following constraints:
 
 number of engines (n_engines): 6
 
-engine type (engine_tyoe): TS
+engine type (engine_type): TS
 
 max take-of weight (mtow): 15.1 kg
 
