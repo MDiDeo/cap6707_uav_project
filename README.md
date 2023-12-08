@@ -1,7 +1,13 @@
 # cap6707_uav_project
 Repository for my CAP6707 Class Project
 
-Data is taken from the LOG file for a UAV_speed of 10, Wind_speed of 5, and a UAV_altitude of 100 meters with a wind angle of 90 degrees
+The training data is taken from the LOG file for a UAV_speed of 10, Wind_speed of 5, and a UAV_altitude of 100 meters with a wind angle of 90 degrees
+
+The testing data is taken from the LOG file for a UAV_speed of 10, Wind_speed of 5, and a UAV_altitude of 100 meters with a wind angle of 270 degrees
+
+Both csv files containing the training and testing data are in the zip file due to size constraints.
+
+The data originally comes from the ["UAV Delivery"](https://github.com/uavdelievery/Dataset/tree/main) repository.
 
 Note: All deliveries are under distances of 5 kilometers due to UAV battery constraints
 
@@ -72,15 +78,3 @@ maximum vertical speed (vs_max): 5 m/s
 maximum altitude (h_max): 2500 m
 
 maximum flight range (d_range_max): 10 km
-
-
-Below is the LaTeX citation for the repository where the data was retrieved from.
-
-@inproceedings{rigoni2022delivery,
-  title={Delivery with UAVs: a simulated dataset via ATS},
-  author={Rigoni, Giulio and Pinotti, Cristina M and Bhumika and Das, Debasis and Das, Sajal K},
-  booktitle={2022 IEEE 95th Vehicular Technology Conference:(VTC2022-Spring)},
-  pages={1--6},
-  year={2022},
-  organization={IEEE}
-}
