@@ -46,8 +46,6 @@ phase = flight phase calculation based on altitude, speed, and vertical rate
 
 fuelflow = fuel flow calculation
 
-avg_speed = distflown/simt (measured in m/s)
-
 ## Drone Specifications
 All drones were DJI Matrice 600's (M600) and have the following constraints:
 
